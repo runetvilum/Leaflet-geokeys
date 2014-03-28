@@ -1,0 +1,35 @@
+{
+    "author": "Rune Tvilum",
+    "name": "geokeys.js",
+    "description": "Leaflet search control using GST GeoKeys",
+    "version": "0.0.1",
+    "homepage": "http://www.kortforsyningen.dk/",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/runetvilum/geokeys.js.git"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "corslite": "0.0.5",
+        "json3": "git://github.com/bestiejs/json3.git#v3.2.6"
+    },
+    "scripts": {
+        "test": "jshint src/*.js && mocha-phantomjs test/index.html"
+    },
+    "devDependencies": {
+        "uglify-js": "2.4.8",
+        "mocha": "1.17.1",
+        "expect.js": "0.3.1",
+        "sinon": "1.8.2",
+        "mocha-phantomjs": "3.1.6",
+        "happen": "0.1.3",
+        "browserify": "3.23.1",
+        "jshint": "2.4.4",
+        "minimist": "0.0.5",
+        "marked": "~0.3.0"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
