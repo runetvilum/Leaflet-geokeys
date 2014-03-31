@@ -1,4 +1,4 @@
-geokeys.js
+Leaflet-geokeys
 ==========
 
-Leaflet search control using GST GeoKeys
+Leaflet search control using GST GeoKeys.
